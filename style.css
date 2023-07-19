@@ -1,0 +1,179 @@
+body{
+    background-color:black;
+    font-family: 'Ysabeau Office', sans-serif;    
+    color: beige;
+    text-align: justify;
+}
+/*navegacion*/
+
+header{
+    width: 100%;
+    height: 1%;
+}
+
+header nav{
+    /*movimiento flexible*/
+    display: flex;
+    /*posición en el final*/
+    justify-content: end;
+}
+
+header nav .nav-left-section {
+    /*eliminar viñetas*/
+    list-style: none;
+    width: 240px;
+    /*flexibilidad de movimiento*/
+    display: flex;
+    /*aliniar horizontalmente*/
+    justify-content: end;
+    /*alinear verticalmente*/
+    align-items: center;
+    /*altura automática*/
+    height: auto;
+}
+
+nav .nav-left-section a{
+    color: blueviolet;
+    /*quitar subrayado*/
+    text-decoration: none;
+    /*margen*/
+    margin-right: 20px;
+}
+
+.tittle-principal{
+    color: black;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 3px orangered;
+}
+.indice1{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+}
+.indice2{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+}
+.indice3{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-family: 'Shadows Into Light', cursive;
+}
+.top-estrellas{
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    font-family: 'Ysabeau Office', sans-serif;  
+}
+
+.numeros{
+    color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tittle-misiones{
+    display: flex;
+    justify-content: center;
+    color: bisque;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+.puntos{
+    color: turquoise;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{ 
+    width: 200px;
+    border-radius: 20px;
+    inset: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/*comentario xd*/
+.nicole {
+    width: 200;
+    border-radius: 20px;
+}
+.tittle-astrobiologia{
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    color: beige;
+    text-shadow: 1px 2px 3px black;
+}
+.tittle-universo{
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Luckiest Guy', cursive;
+    color: beige;
+    text-shadow: 1px 2px 3px black;
+}
+.tittle-estrellas{
+    text-align: right;
+    font-size: 50px;  
+    font-family: 'Luckiest Guy', cursive; 
+    color: beige;
+    text-shadow: 1px 2px 3px black;
+}
+.edad{
+    text-align: center;
+    color: aquamarine;
+}
+
+.boton{
+    background-color: black;    
+    border-radius: 50px 20px;
+    color: aliceblue;
+    font-size: 15px;
+    width: 90px;
+    border-color: orange;
+    box-shadow: 0 2px 1px turquoise;
+}
+.boton:hover{
+    background-color: orange;
+    color: white;
+}
+
+.formulario{
+    color: turquoise;
+    text-align: center;
+}
+
+.one{
+    color: orange;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    color: chocolate;
+}
+.opc1{
+    color: khaki;
+}
+.opc2{
+    color: gold;
+}
+.opc3{
+    color: goldenrod;
+}
+.opc4{
+    color: orange;
+}
+.opc5{
+    color: chocolate; 
+}
+.opc6{
+    color: orangered;
+}
