@@ -1,23 +1,31 @@
 body{
-    background-color:black;
+    background-image: url(https://png.pngtree.com/background/20220731/original/pngtree-galaxy-star-dust-black-and-white-background-picture-image_1910929.jpg);
     font-family: 'Ysabeau Office', sans-serif;    
     color: beige;
     text-align: justify;
+    margin: 0;
+    padding: 0;
 }
+
 /*navegacion*/
 
 header{
+    background-color: rgb(9, 53, 97);
     width: 100%;
     height: 1%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 header nav{
     /*movimiento flexible*/
-    display: flex;
-    /*posición en el final*/
-    justify-content: end;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
+/*NAVEGACIÓN IZQUIERDA*/
 header nav .nav-left-section {
     /*eliminar viñetas*/
     list-style: none;
@@ -25,85 +33,186 @@ header nav .nav-left-section {
     /*flexibilidad de movimiento*/
     display: flex;
     /*aliniar horizontalmente*/
-    justify-content: end;
+    justify-content: flex-start;
     /*alinear verticalmente*/
     align-items: center;
     /*altura automática*/
     height: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
 }
-
-nav .nav-left-section a{
-    color: blueviolet;
+/*PNG.ASTONAUTA*/
+nav .nav-left-section img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    width: 100px;
+    margin: 0;
+}
+/*LUPA*/
+nav .nav-left-section .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-position: center;
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+}
+/*CAJA*/
+nav .nav-left-section .caja{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: white;
+    border: 0;
+    padding: 0;
+}
+nav .nav-left-section .caja:hover{
+    background-color:rgb(244, 236, 236);
+    box-shadow: 0 0 15px 0 #20212447;
+    border: none;
+}
+/*BARRA BUSCADORA*/
+nav .nav-left-section .buscador{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+nav .nav-left-section .buscador:hover{
+    background: inherit;
+    color: darkslateblue;
+    border: none;
+}
+/*NAVEGACIÓN DERECHA*/
+header nav .nav-right-section {
+    /*eliminar viñetas*/
+    list-style: none;
+    width: 240px;
+    /*flexibilidad de movimiento*/
+    display: flex;
+    /*aliniar horizontalmente*/
+    justify-content: space-around;
+    /*alinear verticalmente*/
+    align-items: center;
+    /*altura automática*/
+    text-align: center;
+    height: auto;
+    float: right;
+    margin: 0;
+}
+nav .nav-right-section a{
+    color: wheat;
     /*quitar subrayado*/
     text-decoration: none;
     /*margen*/
-    margin-right: 20px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px; 
+}
+/*más anchura en la ancla con texto largo "Imagen del día"*/
+header nav .nav-right-section .dia{
+    width: 120px;
+}
+/*MEDIDAS DE IMAGEN INCIAL*/
+.atmosfera{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+}
+/*TEXTO EN IMAGEN INICIAL*/
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    color: bisque;
+    font-family: 'Luckiest Guy', cursive;
+    position: absolute;
+    text-shadow: 3px 1px 15px chocolate;
+    top: 95%;
+    left: 80%;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*INDICE*/
+.indice{
+    float:center;
+    background-color: dodgerblue;
+    margin: 0;
+    padding: 20px;
+}
+.tittle-indice{
+    font-size: 50px;
+    text-align: center;
 }
 
-.tittle-principal{
-    color: black;
-    font-family: 'Luckiest Guy', cursive;
-    text-align: center;
-    text-shadow: 3px 3px 3px orangered;
-}
-.indice1{
-    display: flex;
-    justify-content: center;
+.indices a{
+    margin-left: 1px;
     color: beige;
     font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
 }
-.indice2{
-    display: flex;
-    justify-content: center;
-    color: beige;
-    font-family: 'Shadows Into Light', cursive;
+
+.indices A:hover{
+    color: turquoise;
 }
-.indice3{
-    display: flex;
-    justify-content: center;
-    color: beige;
-    font-family: 'Shadows Into Light', cursive;
-}
+/*TÍTULO DE TOP ESTRELLAS MÁS MASIVAS*/
 .top-estrellas{
     display: flex;
     justify-content: center;
     color: bisque;
     font-family: 'Ysabeau Office', sans-serif;  
 }
-
+/*LISTA ORDENADA*/
 .numeros{
-    color: orange;
+    color: #F7C59F;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/*TÍTULO DE TOP DE MISIONES ESPACIALES*/
 .tittle-misiones{
     display: flex;
     justify-content: center;
     color: bisque;
     font-family: 'Ysabeau Office', sans-serif;
 }
-
+/*LISTA NO ORDENADA*/
 .puntos{
-    color: turquoise;
+    color: #F7C59F;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/*IMAGENES EN LÍNEA*/
 img{ 
     width: 200px;
     border-radius: 20px;
     inset: 0;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-left: 20px;
 }
-
-/*comentario xd*/
+/*IMAGEN DE LA CARPETA*/
 .nicole {
     width: 200;
     border-radius: 20px;
 }
+/*TÍTULO DE LOS PARRAFOS*/
 .tittle-astrobiologia{
     display: flex;
     justify-content: right;
@@ -111,6 +220,7 @@ img{
     font-family: 'Luckiest Guy', cursive;
     color: beige;
     text-shadow: 1px 2px 3px black;
+    margin-right: 40px;
 }
 .tittle-universo{
     text-align: right;
@@ -118,6 +228,7 @@ img{
     font-family: 'Luckiest Guy', cursive;
     color: beige;
     text-shadow: 1px 2px 3px black;
+    margin-right: 40px;
 }
 .tittle-estrellas{
     text-align: right;
@@ -125,12 +236,39 @@ img{
     font-family: 'Luckiest Guy', cursive; 
     color: beige;
     text-shadow: 1px 2px 3px black;
+    margin-right: 40px;
 }
+/*MARGEN DE LOS PARRAFOS EN GENERAL*/
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: beige;
+}
+/*IMAGEN ENTRE EL TEXTO*/
+.image-universo{
+    width: 30%;
+    height: 30%;
+    margin-top: 10px;
+}
+.image-estrellas{
+    width: 30%;
+    height: 40%;
+}
+.image-astrobiologia{
+    width: 40%;
+    height: 80%;
+}
+/*ESCRITOS CON H2*/
+.H2{
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive; 
+}
+/*COLOCR DE LAS OPCIONES*/
 .edad{
     text-align: center;
     color: aquamarine;
 }
-
+/*ESTILO DE BOTÓN*/
 .boton{
     background-color: black;    
     border-radius: 50px 20px;
@@ -144,12 +282,12 @@ img{
     background-color: orange;
     color: white;
 }
-
+/*FORMULARIO LETRA Y ALINEACIÓN*/
 .formulario{
     color: turquoise;
     text-align: center;
 }
-
+/*COLORES DE LAS OPCIONES*/
 .one{
     color: orange;
     flex-direction: column;
@@ -176,4 +314,94 @@ img{
 }
 .opc6{
     color: orangered;
+}
+/*TARJETAS*/
+.titulo-tarjetas{
+    text-align: center;
+}
+/*SECCIÓN DONDE SE ENCUENTRAN LAS TARJETAS*/
+.articulos{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articulos article{
+    width: 19%;
+    height: 400px;
+    background-color: #3F220F;
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 30px;
+}
+/*recorrer tarjetas*/
+.tarjeta5{
+    margin-right: 35px;
+}
+
+
+.articulos h2{
+    color: #8a584b;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.articulos p{
+    color: #F7C59F;
+    text-align: justify;
+    margin: 0, 10px;
+}
+.articulos img{
+    margin: 10px;
+}
+.articulos button{
+    height: 30px;
+    background-color: black;    
+    border-radius: 50px 20px;
+    color: aliceblue;
+    font-size: 15px;
+    width: 110px;
+    border-color: #F7C59F;
+    box-shadow: 0 2px 1px turquoise;
+
+}
+.articulos button:hover{
+    background-color: #F7C59F;
+    color: #3F220F;
+}
+
+.content-table { 
+    border-collapse: collapse; 
+    margin: 25px 0; 
+    font-size: 1em; 
+    font-family: sans-serif; 
+    min-width: 450px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+}
+/*celdas de encabezado*/
+.styled-table thead tr { 
+    background-color: #980081; 
+    color: #ffffff; 
+    text-align: middle; 
+}
+/*resta de celdas*/
+.styled-table th, .styled-table td { padding: 12px 15px; }
+
+/*resto de filas*/
+.styled-table tbody tr { 
+    border-bottom: 1px solid #dddddd; 
+}     
+.styled-table tbody tr:nth-of-type(even) { 
+    background-color: #f3f3f3; 
+} 
+.styled-table tbody tr:last-of-type { 
+    border-bottom: 2px solid #009879; 
+}
+
+/*2columnas del texto de misiones apolo*/
+
+.misiones-nombre{
+    columns: 2;
 }
