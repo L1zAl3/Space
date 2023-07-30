@@ -1,7 +1,7 @@
 body{
     background-image: url(https://png.pngtree.com/background/20220731/original/pngtree-galaxy-star-dust-black-and-white-background-picture-image_1910929.jpg);
     font-family: 'Ysabeau Office', sans-serif;    
-    color: beige;
+    color: #ADB6C4;
     text-align: justify;
     margin: 0;
     padding: 0;
@@ -136,10 +136,10 @@ header nav .nav-right-section .dia{
     text-align: center;
 }
 .texto-encima{
-    color: bisque;
-    font-family: 'Luckiest Guy', cursive;
+    color: #909CC2;
     position: absolute;
-    text-shadow: 3px 1px 15px chocolate;
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 3px 1px 15px white;
     top: 95%;
     left: 80%;
 }
@@ -148,6 +148,9 @@ header nav .nav-right-section .dia{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: 'Rubik Maze', cursive;
+    color: #78bdef;
+    font-size: 40px;
 }
 /*INDICE*/
 .indice{
@@ -162,42 +165,13 @@ header nav .nav-right-section .dia{
 }
 
 .indices a{
-    margin-left: 1px;
+    margin:0;
     color: beige;
-    font-family: 'Shadows Into Light', cursive;
     text-decoration: none;
 }
 
 .indices A:hover{
     color: turquoise;
-}
-/*TÍTULO DE TOP ESTRELLAS MÁS MASIVAS*/
-.top-estrellas{
-    display: flex;
-    justify-content: center;
-    color: bisque;
-    font-family: 'Ysabeau Office', sans-serif;  
-}
-/*LISTA ORDENADA*/
-.numeros{
-    color: #F7C59F;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/*TÍTULO DE TOP DE MISIONES ESPACIALES*/
-.tittle-misiones{
-    display: flex;
-    justify-content: center;
-    color: bisque;
-    font-family: 'Ysabeau Office', sans-serif;
-}
-/*LISTA NO ORDENADA*/
-.puntos{
-    color: #F7C59F;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 /*IMAGENES EN LÍNEA*/
 img{ 
@@ -218,7 +192,7 @@ img{
     justify-content: right;
     font-size: 50px;
     font-family: 'Luckiest Guy', cursive;
-    color: beige;
+    color: white;
     text-shadow: 1px 2px 3px black;
     margin-right: 40px;
 }
@@ -226,7 +200,7 @@ img{
     text-align: right;
     font-size: 50px;
     font-family: 'Luckiest Guy', cursive;
-    color: beige;
+    color: white;
     text-shadow: 1px 2px 3px black;
     margin-right: 40px;
 }
@@ -234,7 +208,7 @@ img{
     text-align: right;
     font-size: 50px;  
     font-family: 'Luckiest Guy', cursive; 
-    color: beige;
+    color: white;
     text-shadow: 1px 2px 3px black;
     margin-right: 40px;
 }
@@ -242,7 +216,7 @@ img{
 p{
     margin-left: 40px;
     margin-right: 40px;
-    color: beige;
+    color: wheat;
 }
 /*IMAGEN ENTRE EL TEXTO*/
 .image-universo{
@@ -258,67 +232,14 @@ p{
     width: 40%;
     height: 80%;
 }
-/*ESCRITOS CON H2*/
-.H2{
-    font-size: 40px;
-    font-family: 'Luckiest Guy', cursive; 
-}
-/*COLOCR DE LAS OPCIONES*/
-.edad{
-    text-align: center;
-}
-/*ESTILO DE BOTÓN*/
-.boton{
-    background-color: black;    
-    border-radius: 50px 20px;
-    color: aliceblue;
-    font-size: 15px;
-    width: 90px;
-    border-color: orange;
-    box-shadow: 0 2px 1px turquoise;
-}
-.boton:hover{
-    background-color: orange;
-    color: white;
-}
-/*FORMULARIO LETRA Y ALINEACIÓN*/
-.formulario{
-    color: turquoise;
-    text-align: center;
-}
-/*COLORES DE LAS OPCIONES*/
-.one{
-    color: orange;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.two{
-    color: chocolate;
-}
-.opc1{
-    color: khaki;
-}
-.opc2{
-    color: gold;
-}
-.opc3{
-    color: goldenrod;
-}
-.opc4{
-    color: orange;
-}
-.opc5{
-    color: chocolate; 
-}
-.opc6{
-    color: orangered;
-}
 /*TARJETAS*/
 .titulo-tarjetas{
     text-align: center;
+    font-family: 'Luckiest Guy', cursive; 
     color: white;
+    font-size: 50px;
 }
+
 /*SECCIÓN DONDE SE ENCUENTRAN LAS TARJETAS*/
 .articulos{
     width: 100%;
@@ -332,7 +253,7 @@ p{
 .articulos div{
     width: 19%;
     height: 450px;
-    background-color: #3F220F;
+    background-color: #001B2E;
     border-radius: 15px;
     display: inline-block;
     margin-left: 30px;
@@ -342,13 +263,13 @@ p{
     margin-right: 35px;
 }
 .articulos h2{
-    color: #8a584b;
+    color: #909CC2;
     display: flex;
     justify-content: center;
     margin: 0;
 }
 .articulos p{
-    color: #F7C59F;
+    color: #ADB6C4;
     text-align: justify;
     margin: 0, 10px;
 }
@@ -357,37 +278,76 @@ p{
 }
 .articulos button{
     height: 30px;
-    background-color: black;    
+    background-color: #084887;    
     border-radius: 50px 20px;
     color: aliceblue;
     font-size: 15px;
     width: 110px;
-    border-color: #F7C59F;
+    border-color: #00A6FB;
     box-shadow: 0 2px 1px turquoise;
 }
 .articulos button:hover{
-    background-color: #F7C59F;
-    color: #3F220F;
+    background-color: black;
+    color: turquoise;
 }
 
-.tittle-apolo{
-    color: blue;
-    text-align: center;
+/*TÍTULO DE TOP ESTRELLAS MÁS MASIVAS*/
+.top-estrellas{
+    display: flex;
+    justify-content: center;
+    color: white;
+    /*font-family: 'Ysabeau Office', sans-serif;*/
+    font-family: 'Luckiest Guy', cursive; 
+    font-size:50px ;
 }
+/*LISTA ORDENADA*/
+.numeros{
+    color: #EAE0D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*TÍTULO DE TOP DE MISIONES ESPACIALES*/
+.tittle-misiones{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 50px;
+}
+/*LISTA NO ORDENADA*/
+.puntos{
+    color: #EAE0D5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tittle-apolo{
+    color: white;
+    font-family: 'Luckiest Guy', cursive; 
+    text-align: center;
+    font-size: 50px;
+}
+.Apolo{
+    color: #909CC2;
+} 
+
 /*2columnas del texto de misiones apolo*/
 .misiones-nombre{
     columns: 2;
-    color: antiquewhite;
+    color: #EAE0D5;
     text-align: center;
     list-style: none;
     margin-bottom: 10px;
 }
 /*CARRUSEL*/
-
 .tittle-celestes{
     text-align: center;
     color: white;
+    font-family: 'Luckiest Guy', cursive; 
+    font-size: 50px;
 }
+/*IMAGENES*/
 .planetas{
     width: 69%;
 }
@@ -397,6 +357,74 @@ p{
 .agujeros{
     width: 77%;
 }
+/*TEXTO*/
+.carousel p{
+    color: white;
+}
+
+/*FORMULARIO*/
+.formulario p{
+    color: white;
+}
+
+/*ESCRITOS CON H2*/
+.H2{
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive; 
+    color:white;
+}
+/*COLOCR DE LAS OPCIONES*/
+.edad{
+    text-align: center;
+}
+/*ESTILO DE BOTÓN*/
+.boton{
+    background-color: black;    
+    border-radius: 50px 20px;
+    color: aliceblue;
+    font-size: 15px;
+    width: 90px;
+    border-color: #0422ff;
+    box-shadow: 0 2px 1px turquoise;
+}
+.boton:hover{
+    background-color: turquoise;
+    color: black;
+}
+/*FORMULARIO LETRA Y ALINEACIÓN*/
+.formulario{
+    color: turquoise;
+    text-align: center;
+}
+/*COLORES DE LAS OPCIONES*/
+.one{
+    color: #ADB6C4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+    color: #00A6FB;
+}
+.opc1{
+    color: #ADB6C4;
+}
+.opc2{
+    color: #95abd4;
+}
+.opc3{
+    color: #429fcd;
+}
+.opc4{
+    color: #00A6FB;
+}
+.opc5{
+    color: #0079fb; 
+}
+.opc6{
+    color: #0422ff;
+}
+/*FOOTER*/
 footer{
     background-color:  rgb(9, 53, 97);
     width: 100%;
